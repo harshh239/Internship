@@ -1,0 +1,196 @@
+<!--
+1)what is Html?
+->html (Hyper text markup language) is a tag base language. it use to create a framwork of web page.
+2)how to write tag?
+-><tagname>
+3)how many types of tag in html?
+->in html two types of tag available
+  1.single tag(unpair tag)
+   ->in html some tag dosen't need to closed it that types of tag its call single tag.
+  2.couple tag(pair tag)
+   ->in html some tag used with closing tag so its call couple tag or pair tag.
+4)which tag is call main tag in html?
+-><html>,<head>,<body>,<title>,<p>,<div>.
+What is attribute?
+  => attribute is a one type of tag proparty.
+5) How many types of attribute?
+ => in HTML 2 types of attributes are available.
+  1] global attributes = some attribute use in all tag then it's call global attribute.
+  2] specific tag attribute  = some attribute used only in specific tag then it's specific attribute
+  
+6)How we can use attribute in tag.
+  => <taganame attribute1="value1" attribute2="value2" . . . >
+
+7)entity and symbol?
+ =>
+tag
+   title :- it is used to display your web page title
+   body :- it is used to display content for your web page.
+   br :- it is used to break line or we want to new line then use br tag.
+   b and strong :- if you want to highlight some text or line as a bold.
+   i , var and em :- if you want to highlight word using italic style then you can use em or i tag.
+   u :- if you want to under line some text or line then you can use u tag.
+   img :- used to display image on browser.
+   address :-the address tag define the contact information for the author of a documentor an aarticle.
+   audio :- The <audio> tag is used to embed sound content in a document, such as music or other audio streams.
+   button :- The <button> tag defines a clickable button.
+   caption :-the caption tag define table caption.
+   data :- the <data> tag is used to add a machine readble transationof a given contact.
+   datalist :- The <datalist> tag specifies a list of pre-defined options for an <input> element.
+   del :-  The <del> tag defines text that has been deleted from a document
+   details :- the details tag specific additional details thatthn user can open and close on demand.
+   dialog :- the dialog tag define a dialog box or subwindow.
+   embed :- The <embed> tag defines a container for an external resource, such as a web page, a picture, a media player, or a plug-in application.
+   fieldset :- The <fieldset> tag is used to group related elements in a form.
+   footer :- the footer tag define a footer for a document or section.
+   h1-h6 :- The <h1> to <h6> tags are used to define HTML headings.
+   hr :- the hr tag define a thematic break in an html page.
+   ol and ul :- ol tag is order list anf ul tag is unorder list define.
+   link :- 	The <link> tag defines the relationship between the current document and an external resource.
+   menu :- The <menu> tag defines an unordered list of content.
+   nav :- the nav tag define a set of navigation links.
+   options :- the option tag define an options in a select list.
+   script :- the script tag used to embed a client script.
+   search :- The <search> tag is used to specify that here comes a set of elements that is related to search.
+   p :- The <p> tag defines a paragraph.
+   table :- The <table> tag defines an HTML table.
+   u :- The <u> tag also supports the Global Attributes in HTML.
+   sup :-Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font.
+   
+-->
+<html>
+
+<head>
+    <title>first html programe</title>
+</head>
+
+<body>
+    <!--
+<img src='../img/download.JPG' style="width:250px; height:200px">
+ hello guys <strong> Today </strong> we are start learning for <b> HTML</b>.<br>
+        we are always try to <i>gether knowledge</i> of html.<br>
+		so first <em>focuse on basic</em> for html.<br>
+		today we are learni about tag and <u>know what is the use of different tag.</u><br>
+		<a href="https://www.crickbuzz.com">click here to watch cricket score</a>
+		<address>
+		Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+		Visit us at:<br>
+		Example.com<br>
+		</address>
+		<audio controls	>
+		<source src="hourse.mp3" type="mp3/mpeg"><br></audio><br><br>
+		<button type="button">Click me</button><br>
+		<caption>hello friends good morning</caption><br><br>
+		<ul>
+		  <li><data>chikhli</data></li>
+		  <li><data>rankuva</data></li>
+		  <li><data>kharel</data></li>
+		</ul>
+		<label for="browser">choies </label>
+		<input list="li" name="browser" id="browser">
+		
+		<datalist id="li">
+		  <option value="good morning">
+		  <option value="goodafternoon">
+		  <option value="good eveing ">
+		  <option value="good night">
+		 </datalist>
+		 
+		<p>hello friends <del>hello</del> good morning  </p><br><br><br>
+		
+		<h3>details tag</h3>
+		<details>
+		  <summary>click</summary>
+		  <p> hello today we are start learning for the html</p>
+		  <h1>HTML</h1>
+		</details><br><br>
+		
+		<dialog open>this is the open dialog window</dialog><br><br> -->
+
+    <!--
+		<h1> Form </h1>
+		<embed type="jpg" src="../img/12.jpg" width="300" height="200">  
+		<form action="">
+		  <fieldset>
+		      <legend>Personalia</legend>
+			  <label for="fname">First name:</label>
+			  <input type="text" id="fname" name="fname"><br><br>
+			  
+			  <input type="text" id="fname" name="fname"><br><br>
+			    <label for="number">Number:</label>
+			  <input type="number" id="num" name="num"><br><br>
+			    <label for="email">Email:</label>
+			  <input type="email" id="em" name="em"><br><br>
+			  <button type="button">submit</button>
+		  </fieldset>
+		  </form>
+		  
+		  <footer>
+		    <p>hello friends</p>
+		  </footer>
+		  <hr>
+		  <h2> hello </h2><br><br>
+		  
+		  <ol>
+		    <li>123</li>
+			<li>456</li>
+			<li>789</li>
+		  </ol>
+		   <ul>
+		    <li>123</li>
+			<li>456</li>
+			<li>789</li>
+		  </ul>
+		  
+		   <link rel="stylesheet" href="styles.css">
+		   
+		   <menu>
+		      <li>coffee</li>
+			  <li>tea</li>
+			  <li>milk</li>
+		   </menu><br>
+		   
+		   <nav>
+		      <a href="/html/">HTML</a> |
+			  <a href="/css/">CSS</a> |
+			  <a href="/js/">JavaScript</a> |
+			  <a href="/python/">Python</a>
+		   </nav>
+		   
+		   <label for="cars"> Chooes a car:</label>
+		   
+		   <select id="cars">
+		       <option valu="volvo ">Volvo</option>
+			   <option valu="thar ">thar</option>
+			   <option valu="honda city ">honda city</option>
+		   </select>
+		
+		 <script>
+			document.getElementById("demo").innerHTML = "Hello JavaScript!";
+			</script> 
+			
+			 <search>
+		  <form>
+			<input name="fsrch" id="fsrch" placeholder="Search W3Schools">
+		  </form>
+		  -->
+    <p> hello friends good morning</p>
+    <p>now we are learing html and find out that &lt;html&gt; is importent tag. i wont on 1.50 lack&COPY;
+    </p>
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+    </table>
+
+    <u> good morning</u>
+    <p>This text contains <sup>superscript</sup> text.</p>
+    </search>
+</body>
+
+</html>

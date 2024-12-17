@@ -1,0 +1,252 @@
+            /* 
+What is CSS?
+CSS(casecading style sheet) is use to decorate your web page.
+
+how many types of css available?
+3 types of css available 
+
+how mmanytypes of selector:- 
+here 5 types of selector available
+1) normal selector
+    1)name selecter (tagname)
+    2)ID selecter (#idname)
+    3) class selecter (.classname)
+
+
+
+2) combinator seelcter
+ decsendent selecter(space) - if you want to apply css on all tag inside selected tag then we can use descendent selecter.
+              - child selecter (>) - we want to apply css on child tag only then we can use child selecter.
+              - general sibling (~) - apply css on all sibling
+              - adjution sibling(+) - if you want to apply css on just after selected tag. 
+3) pseudo class selecter
+a.link
+a.visited
+a.hover
+a.active
+
+
+4) pseudo element selecter
+to select a perticular element 
+psudo element selecter
+  syntex;-
+      selecter::elementname;
+
+5) attribute selecter
+to select a perticuler attribute
+
+
+syntex:- 
+     [attributename = value]
+
+1)inline css
+if we want to apply css on perticular single element then we can  use it.
+syntax (<tagname style attribute="css1:value1;css2:value2;css3:value3"></tagname>)
+
+
+2)internal css
+if you want to apply same css on multiple element or tag then you can use internal css.
+syntax (<style>
+selecter{
+css1: value1;
+css2 : value2;
+css3 :  value3;
+}
+</style>)
+
+3)external css
+if you want to apply same css in multiple file then you can use external css
+Syntax:-
+selecter{
+css1: value1;
+css2 : value2;
+css3 :  value3;
+}
+
+
+responsive
+
+  responsive=
+   media query
+   syntex:- 
+       @media screen and ()
+       {
+       selecter{
+        css1: value1;
+        css2: value2;
+        css3: value3;
+        .
+        .
+       }
+
+*/
+            
+            body {
+                background-color: green;
+                padding: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .header {
+                background: white;
+                padding: 20px;
+                text-align: center;
+            }
+            
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+                margin: 0;
+            }
+            
+            .topnav a {
+                float: left;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                color: #f2f2f2;
+                padding: 14px 16px;
+            }
+            
+            .topnav a:hover {
+                background-color: #f1f1f1;
+                color: black;
+            }
+            
+            div.gallary {
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 180px;
+            }
+            
+            div.gallary:hover {
+                border: 1px solid skyblue;
+            }
+            
+            div.gallary img {
+                width: 100%;
+                height: auto;
+            }
+            
+            div.desc {
+                padding: 15px;
+                text-align: centere
+            }
+            
+            .column {
+                float: left;
+                width: 22%;
+                padding: 15px;
+            }
+            
+            .row::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            .column.side {
+                width: 22.5%;
+            }
+            
+            .column.middle {
+                width: 50%;
+            }
+            
+            .footer {
+                padding: 20px;
+                text-align: center;
+                background: #ddd;
+                margin-top: 20px;
+            }
+            
+            .header h1 {
+                font-size: 50px;
+            }
+            
+            .leftcolumn {
+                float: left;
+                width: 70%;
+            }
+            
+            .rightcolumn {
+                float: left;
+                width: 22%;
+                background-color: #f1f1f1;
+                padding-left: 30px;
+            }
+            
+            .fakeimg {
+                background-color: #aaa;
+                width: 80%;
+                padding: 20px;
+            }
+            
+            .card {
+                background-color: white;
+                padding: 25px;
+                margin-top: 20px;
+            }
+            /* for responsive*/
+            
+            @media screen and (max-width:900px) {
+                body {
+                    background-color: navy;
+                }
+            }
+            
+            @media screen and (max-width:700px) {
+                body {
+                    background-color: yellow;
+                }
+            }
+            
+            @media screen and (max-width:300px) {
+                body {
+                    background-color: red;
+                }
+            }
+            /* @media screen and (max-width: 800px) {
+                .leftcolumn,
+                .rightcolumn {
+                    width: 100%;
+                    padding: 0;
+                }
+            }
+             Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other
+            
+            @media screen and (max-width: 400px) {
+                .topnav a {
+                    float: none;
+                    width: 100%;
+                }
+            }
+            
+            */
+            
+            #div-1::first-letter {
+                font-size: 55px;
+                font-style: italic;
+                font-weight: 700;
+            }
+            
+            #div-1::first-line {
+                background-color: darkkhaki;
+            }
+            
+            [for="a-tag"] {
+                background-color: chartreuse;
+            }
+            /* 
+    ul li {
+        color: lightcoral;
+    }
+    
+    ul>li {
+        background-color: blueviolet;
+    }
+    
+    ul~div {
+        background-color: yellow;
+    }*/
