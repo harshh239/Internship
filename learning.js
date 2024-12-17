@@ -55,3 +55,29 @@ console.log(Company_CEO);
 const num = 120;
 //num++;
 console.log(num);
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+window.alert(5 + 1);
+window.print();
+let a, b, c;
+a = 5;
+b = 10;
+c = a + b;
+document.getElementById("p0").innerHTML = c
+var x, y;
+x = 5 + 6;
+y = x * 10;
+document.getElementById("p01").innerHTML = y;
+let lastname, lastName;
+lastName = "Doe";
+lastname = "Peterson";
+document.getElementById("p01").innerHTML = lastName + lastname;
+
+// Create an Object:
+const car = { type: "Fiat", model: "500", color: "white" };
+
+// Display Data from the Object:
+document.getElementById("p02").innerHTML =
+    "The car type is " + car.type
