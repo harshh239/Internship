@@ -33,7 +33,36 @@ How we can display data in js file.
   
   
      const variablename = value; -> fix value can not change
+
+
+     typeof = it is a function to identify type of data
+      in java script number of type data available
+   number = if we assign numeric value with decimal point or without decimal point it's consider as number type
+   string = if you have to assign value using single quate or double quate then it consider as string type.
+  boolean = it have only two values true or false.
+
+operators
+
+ how many types of oparetor in js?
+   arithamatic operator
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation 
+/	Division
+%	Modulus (Remainder)
+++	Increment
+--	Decrement
+
+   comparission operator
+   assigment operator
+   logical operator
+   increament decreament operator
+   + operator(concatination operator)
+   
 */
+
+
 
 console.log("Hello Good Morning");
 document.write('Today We are start to learn about java script');
@@ -59,13 +88,10 @@ console.log(num);
 function myFunction() {
     document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
-window.alert(5 + 1);
-window.print();
-let a, b, c;
-a = 5;
-b = 10;
-c = a + b;
-document.getElementById("p0").innerHTML = c
+//window.alert(5 + 1);
+//window.print();
+
+
 var x, y;
 x = 5 + 6;
 y = x * 10;
@@ -81,3 +107,38 @@ const car = { type: "Fiat", model: "500", color: "white" };
 // Display Data from the Object:
 document.getElementById("p02").innerHTML =
     "The car type is " + car.type
+typeof 'harsh';
+console.log(typeof(a));
+var num1 = 23.45;
+console.log(typeof(num1));
+console.log(typeof(Company_CEO));
+var strnumber = '4673';
+console.log(typeof(strnumber));
+var sbc = true;
+console.log(typeof(sbc));
+var sbc = num1 > num;
+console.log(typeof(sbc));
+var sbc = 'true';
+console.log(typeof(sbc));
+var arrdata = [23, 56, 43, 23, 67, 898];
+console.log(arrdata);
+console.log(typeof(arrdata));
+class myclass {
+    name = 'bhargav';
+    dob = '25/09/2004';
+}
+var myobj = new myclass();
+console.log(myobj);
+console.log(typeof(myobj));
+var a = 4;
+var b = 5;
+const c = a + b;
+const d = a - b;
+const e = a * b;
+const f = a / b;
+const g = a ** b;
+const h = a % b;
+const i = a++;
+const j = a--;
+const ar1 = [c, d, e, f, g, h, i, j]
+document.getElementById("p03").innerHTML = ar1;
