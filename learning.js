@@ -45,6 +45,7 @@ operators
 
  how many types of oparetor in js?
    arithamatic operator
+   it is used to perfom some calculation operetion.
 +	Addition
 -	Subtraction
 *	Multiplication
@@ -55,6 +56,15 @@ operators
 --	Decrement
 
    comparission operator
+
+   compare two or more same things
+           lessthen(<)=f irst value is lessthen second value.
+           greaterthen(>) = first value is greater then second value
+           equalto(==) = check both value is equal.
+           notequalto(!=)= it is use to check differant value.
+           greaterthen or equalto(>=) = first value is greatethen or equalto second value.
+           lessthen or equalto (<=) = first value is lesserthen second value.
+
    assigment operator
    logical operator
    increament decreament operator
@@ -130,7 +140,7 @@ class myclass {
 var myobj = new myclass();
 console.log(myobj);
 console.log(typeof(myobj));
-var a = 4;
+/*var a = 4;
 var b = 5;
 const c = a + b;
 const d = a - b;
@@ -141,7 +151,7 @@ const h = a % b;
 const i = a++;
 const j = a--;
 const ar1 = [c, d, e, f, g, h, i, j]
-document.getElementById("p03").innerHTML = ar1;
+document.getElementById("p03").innerHTML = ar1;*/
 let x3 = 123e-5;
 //document.getElementById("p04").innerHTML = x3;
 let xy = 5;
@@ -150,3 +160,17 @@ let zy = 6;
 
 document.getElementById("p04").innerHTML =
     (xy == yy) + "<br>" + (xy == zy);
+var a = 340;
+var b = 563;
+console.log(a + b);
+var sub = b - a;
+console.log(sub);
+var ex = a ** b;
+console.log(4 ** 3);
+console.log(18 % 5);
+console.log(a < b);
+console.log(a > b);
+console.log(a == b);
+console.log(a != b);
+console.log(a >= b);
+console.log(a <= b);
