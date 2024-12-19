@@ -174,3 +174,7 @@ console.log(a == b);
 console.log(a != b);
 console.log(a >= b);
 console.log(a <= b);
+console.log(a == 340);
+console.log(a === 340);
+console.log(a == '340');
+console.log(a === '340');
