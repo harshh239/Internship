@@ -142,3 +142,11 @@ const i = a++;
 const j = a--;
 const ar1 = [c, d, e, f, g, h, i, j]
 document.getElementById("p03").innerHTML = ar1;
+let x3 = 123e-5;
+//document.getElementById("p04").innerHTML = x3;
+let xy = 5;
+let yy = 5;
+let zy = 6;
+
+document.getElementById("p04").innerHTML =
+    (xy == yy) + "<br>" + (xy == zy);
