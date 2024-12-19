@@ -66,6 +66,14 @@ operators
            lessthen or equalto (<=) = first value is lesserthen second value.
 
    assigment operator
+   =
+    +=
+     -=
+     *=
+     /=
+     **=
+     %=
+   
    logical operator
    increament decreament operator
    + operator(concatination operator)
@@ -162,6 +170,7 @@ document.getElementById("p04").innerHTML =
     (xy == yy) + "<br>" + (xy == zy);
 var a = 340;
 var b = 563;
+let c = 10;
 console.log(a + b);
 var sub = b - a;
 console.log(sub);
@@ -178,3 +187,11 @@ console.log(a == 340);
 console.log(a === 340);
 console.log(a == '340');
 console.log(a === '340');
+a += 100;
+console.log(a);
+console.log(c += 5);
+console.log(c -= 5);
+console.log(c *= 5);
+console.log(c /= 5);
+console.log(c **= 5);
+console.log(c %= 5);
