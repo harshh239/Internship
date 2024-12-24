@@ -77,6 +77,38 @@ operators
    logical operator
    increament decreament operator
    + operator(concatination operator)
+   statement = it is a logical part of program
+  if = if we have to perform one process using according to condition then we can use if statement.
+    syntex: if(codnitio)
+  if...else= if we have 2 process and exicute any one according to condition then we can use if...else.
+     syntex: if(condition){
+        process of code1
+     }else{
+       process of code2
+     }
+ 
+  if...elseif...else
+  
+  shwitch = it is depend on variable value and we have to create cases according possible value.
+      syntex:
+        switch(varaible name){
+        case 1:
+           process;
+           break;
+        case 2:
+           process2
+           break;
+        case 3:
+           process3;
+           break;
+           . 
+           . 
+           . 
+         default:
+          {
+           process
+          }        
+        }
    
 */
 
@@ -244,3 +276,54 @@ console.log(a);
 console.log(b++);
 console.log(b);
 console.log(++b);
+var s = 123;
+var a = 340;
+var b = 563;
+if (typeof(s) == 'number') {
+    s += 15;
+    console.log(s);
+}
+var a = 900;
+if (a > b) {
+    var sub = a - b;
+    console.log(sub + 'If block');
+} else {
+    var sub = b - a;
+    console.log(sub + 'else block');
+}
+var percentage = 80;
+if (percentage >= 90) {
+    console.log('A+ grade');
+} else if (percentage >= 80 && percentage < 90) {
+    console.log('a grade');
+} else if (percentage >= 70 && percentage < 80) {
+    console.log('b+ grade');
+} else if (percentage >= 60 && percentage < 70) {
+    console.log('b grade');
+} else if (percentage >= 50 && percentage <= 35) {
+    console.log('c grade');
+} else {
+    console.log('F grade');
+}
+var Actor = 'john';
+
+switch (Actor) {
+    case 'srk':
+        console.log('its call king khan');
+        break;
+    case 'salman':
+        console.log('body gurd ');
+        break;
+    case 'ajay':
+        console.log('singham');
+        break;
+    case 'hritik':
+        console.log('no1 handsom hero');
+        break;
+    case 'tiger':
+        console.log('strongest actor');
+        break;
+    default:
+        console.log('this actore information is not available');
+
+}
