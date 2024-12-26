@@ -108,7 +108,24 @@ operators
           {
            process
           }        
-        }
+        } loop = if you perform same process multiple time then we can use loop.
+  How many loop?
+    for loop 
+      syntex: for(value initialize; condition; process)
+              {
+                code;
+              }
+    while loop
+      while(codnition){
+        code;
+        process;
+      }
+    do while loop
+    do{
+      code;
+      process;
+    }while(condition);
+    foreach
    
 */
 
@@ -327,3 +344,27 @@ switch (Actor) {
         console.log('this actore information is not available');
 
 }
+//alert("You are in dnager situation now!");
+//confirm("Are you sure you want to contitnue this process?");
+//if (confirm("Are you sure you want to contitnue this process?") ==
+//true) {
+//console.log('grant permission');
+//} else {
+//console.log('dosent grant');
+//}
+for (var i = 0; i <= 100; i += 15) {
+    console.log(i);
+}
+var Year = 2000;
+while (Year <= 3000) {
+    console.log('leap year = ' + Year);
+    Year++;
+    Year++;
+    Year++;
+    Year++;
+}
+var age = 20;
+do {
+    console.log(age + ' is eligible to work');
+    age++;
+} while (age <= 40);
