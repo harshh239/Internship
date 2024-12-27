@@ -108,7 +108,10 @@ operators
           {
            process
           }        
-        } loop = if you perform same process multiple time then we can use loop.
+        } 
+          
+        
+        loop = if you perform same process multiple time then we can use loop.
   How many loop?
     for loop 
       syntex: for(value initialize; condition; process)
@@ -126,7 +129,18 @@ operators
       process;
     }while(condition);
     foreach
-   
+
+
+   function = it is a block of code to perform specific task
+How to write function?
+     syntex:
+         function(){
+            process code;
+         }
+  how to call function?
+     syntex:-
+         function_name();         
+
 */
 
 
@@ -356,7 +370,7 @@ for (var i = 0; i <= 100; i += 15) {
     console.log(i);
 }
 var Year = 2000;
-while (Year <= 3000) {
+while (Year <= 2024) {
     console.log('leap year = ' + Year);
     Year++;
     Year++;
@@ -367,4 +381,31 @@ var age = 20;
 do {
     console.log(age + ' is eligible to work');
     age++;
-} while (age <= 40);
+} while (age <= 35);
+
+// without peramiter function/static function
+function message() {
+    alert('you are very inteligent guys');
+}
+//message();
+
+function static_count() {
+    var a1 = 45;
+    var a2 = 67;
+    var res = a1 + a2;
+    return res;
+}
+console.log(static_count());
+//with parameter/dynamic functionfunction SimpleIntrest(p,r,n){
+function SimpleIntrest(p, r, n) {
+    var Sitrest = (p * r * n) / 100;
+    return Sitrest;
+}
+console.log('simple intrest:- ' + SimpleIntrest(20000, 6.4, 5));
+//default value arguement 
+function Simple_intrest(p, r, n = 3) {
+    var Sitrest = (p * r * n) / 100;
+    return Sitrest;
+}
+console.log('simple intrest:- ' + Simple_intrest(20000, 6.4, 7));
+console.log('simple intrest:- ' + Simple_intrest(20000, 6.4));
