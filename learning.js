@@ -363,7 +363,7 @@ switch (Actor) {
 //if (confirm("Are you sure you want to contitnue this process?") ==
 //true) {
 //console.log('grant permission');
-//} else {
+//} else {  
 //console.log('dosent grant');
 //}
 for (var i = 0; i <= 100; i += 15) {
