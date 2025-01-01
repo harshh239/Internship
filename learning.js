@@ -409,3 +409,54 @@ function Simple_intrest(p, r, n = 3) {
 }
 console.log('simple intrest:- ' + Simple_intrest(20000, 6.4, 7));
 console.log('simple intrest:- ' + Simple_intrest(20000, 6.4));
+var fruits = ['Apple', 'Orange', 'Mango'];
+console.log(fruits);
+console.log(fruits[1]);
+fruits[1] = 'Mango';
+console.log(fruits[1]);
+console.log(fruits.length);
+fruits.push('xyz');
+console.log(fruits);
+
+
+
+let numbers = [1, 2, 3, 4, 5];
+
+
+let flags = [true, false, true, false, true];
+
+
+let mixed = [1, "two", true, null, undefined];
+
+
+let users = [
+    { name: "HarSH", age: 21 },
+    { name: "Hxz", age: 30 },
+    { name: "Shp", age: 20 }
+];
+
+
+let matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+
+
+let dates = [new Date(2023, 0, 1), new Date(2023, 11, 31)];
+
+let nulls = [null, null, null];
+
+let undefineds = [undefined, undefined, undefined];
+
+
+let regexes = [/abc/, /def/, /ghi/];
+
+let symbols = [Symbol("a"), Symbol("b"), Symbol("c")];
+
+let bigInts = [BigInt(12345678901234567890), BigInt(98765432109876543210)];
+
+
+
+
+let sets = [new Set(), new Set([1, 2, 3])];
