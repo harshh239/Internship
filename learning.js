@@ -409,6 +409,8 @@ function Simple_intrest(p, r, n = 3) {
 }
 console.log('simple intrest:- ' + Simple_intrest(20000, 6.4, 7));
 console.log('simple intrest:- ' + Simple_intrest(20000, 6.4));
+
+
 var fruits = ['Apple', 'Orange', 'Mango'];
 console.log(fruits);
 console.log(fruits[1]);
@@ -418,22 +420,26 @@ console.log(fruits.length);
 fruits.push('xyz');
 console.log(fruits);
 
+//fruits.remove("Apple");
+fruits.pop();
+fruits.shift();
 
 
 let numbers = [1, 2, 3, 4, 5];
-
+console.log(numbers)
 
 let flags = [true, false, true, false, true];
-
+console.log(flags)
 
 let mixed = [1, "two", true, null, undefined];
-
+console.log(mixed)
 
 let users = [
     { name: "HarSH", age: 21 },
     { name: "Hxz", age: 30 },
     { name: "Shp", age: 20 }
 ];
+console.log(users)
 
 
 let matrix = [
@@ -441,22 +447,27 @@ let matrix = [
     [4, 5, 6],
     [7, 8, 9]
 ];
+console.log(matrix)
 
 
 let dates = [new Date(2023, 0, 1), new Date(2023, 11, 31)];
+console.log(dates)
 
 let nulls = [null, null, null];
+console.log(null)
 
 let undefineds = [undefined, undefined, undefined];
+console.log(undefineds)
 
 
 let regexes = [/abc/, /def/, /ghi/];
-
+console.log(regexes)
 let symbols = [Symbol("a"), Symbol("b"), Symbol("c")];
-
+console.log(symbols)
 let bigInts = [BigInt(12345678901234567890), BigInt(98765432109876543210)];
 
-
+console.log(bigInts)
 
 
 let sets = [new Set(), new Set([1, 2, 3])];
+console.log(sets)
