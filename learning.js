@@ -471,3 +471,41 @@ console.log(bigInts)
 
 let sets = [new Set(), new Set([1, 2, 3])];
 console.log(sets)
+console.log(fruits.length)
+    //toString() Array at() Array join() Array pop() Array push()
+    //two dimentional array
+
+// row 1: [1, 2, 3]
+// row 2: [4, 5, 6]
+// row 3: [7, 8, 9]
+var array = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+console.log(array);
+console.log(array[1][2]);
+console.log(array.lenth);
+var array1 = [
+    [
+        [1, 2, 3],
+        [4, 5, 6]
+    ],
+    [
+        [7, 8, 9],
+        [10, 11, 12]
+    ],
+    [
+        [13, 14, 15],
+        [16, 17, 18]
+    ]
+];
+console.log(array1);
+
+
+var objFruit = {};
+var fruit = [];
+objFruit['Name'] = 'Harsh';
+objFruit['website'] = 'domain.com';
+objFruit['age'] = 22;
+console.log(objFruit['Name']);
