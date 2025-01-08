@@ -509,3 +509,14 @@ objFruit['Name'] = 'Harsh';
 objFruit['website'] = 'domain.com';
 objFruit['age'] = 22;
 console.log(objFruit['Name']);
+
+
+const alien1 = {
+    name: "HarSH",
+    species: "alien",
+    phrase: () => console.log("I'm HarsSH the alien!"),
+    fly: () => console.log("Zzzzzziiiiiinnnnnggggg!!")
+}
+console.log(alien1)
+alien1.fly();
+alien1.phrase();
