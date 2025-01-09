@@ -520,3 +520,32 @@ const alien1 = {
 console.log(alien1)
 alien1.fly();
 alien1.phrase();
+var harsh = [33, 56, 78, 54];
+array.forEach(function(item) {
+
+});
+
+harsh.forEach(function(item) {
+    console.log(item)
+});
+harsh.forEach(number => {
+    console.log(number);
+});
+var a = ['Hello shiv!', 'Hello Harsh', 'Hello Parth '];
+a.forEach(number => {
+    console.log(number);
+});
+var FrndName = ['Shiv', 'HArsh', 'PArth'];
+
+FrndName.forEach(function(item) {
+    console.log('Hello ' + item + ' how wre you!');
+});
+let sum = 0;
+var nums = [10, 20, 30, 40];
+
+function addition(item) {
+    sum += item;
+}
+
+nums.forEach(addition);
+console.log(sum);
