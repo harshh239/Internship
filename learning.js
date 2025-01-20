@@ -549,3 +549,20 @@ function addition(item) {
 
 nums.forEach(addition);
 console.log(sum);
+
+//Create an array of 5 numbers and write a loop that sums up all the numbers in the array. Print the total sum.
+var array = [1, 2, 3, 4, 5];
+var sum1 = 0;
+for (let i = 0; i < array.length; i++) {
+    sum1 += array[i];
+}
+
+console.log(sum1);
+// const numbers = [1, 2, 3, 4, 5];
+// let totalSum = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//     totalSum += numbers[i];
+// }
+
+// console.log(totalSum);
