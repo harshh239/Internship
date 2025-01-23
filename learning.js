@@ -566,3 +566,18 @@ console.log(sum1);
 // }
 
 // console.log(totalSum);
+let fruitsa = ['Apple', 'Banana', 'Cherry'];
+
+fruitsa.forEach(function(item, index, fruitsa) {
+    console.log('value-' + item);
+    console.log('index-' + index);
+    console.log('fruitsa-' + fruitsa);
+});
+//oops concepts
+//object 
+// class
+// constructor
+//  inheritance 
+//  encapsulation 
+// polymorphism
+//abstraction
